@@ -94,7 +94,7 @@ export const projects = [
   {
     id: 3,
     fakeLink: "/casecobra.com",
-    title: "AI Image SaaS - Canva Application",
+    title: "AI imagee SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
@@ -116,28 +116,28 @@ export const testimonials = [
     quote:
       "Collaborating with Ikram on our SaaS project was an absolute pleasure. His ability to understand our needs and deliver tailored solutions was remarkable. Ikram's professionalism, promptness, and dedication ensured that our software was both innovative and user-friendly. If you're looking to elevate your software and brand, Ikram is the ideal partner.",
     name: "Sana Khan",
-    imag: "/sana.jpeg",
+    image: "/sana.jpeg",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
       "Working with Ikram on our full stack website was a fantastic experience. His expertise in both frontend and backend development made the project seamless. Ikram's commitment to delivering high-quality results and his ability to meet deadlines were impressive. For anyone looking to enhance their website and brand, Ikram is the perfect choice.",
     name: "Anita Mehta",
-    imag: "/anita.png",
+    image: "/anita.png",
     title: "",
   },
   {
     quote:
       "Ikram did an outstanding job on our frontend development project. His eye for detail and creativity in designing an intuitive user interface were exceptional. Ikram's enthusiasm and dedication to perfection were evident throughout the project. If you need to boost your website's frontend and brand, Ikram is the go-to professional.",
     name: "James Thompson",
-    imag: "/james.jpg",
+    image: "/james.jpg",
     title: "Head of design at MapleTech Solution",
   },
   {
     quote:
       "Ikram's work on our backend development project was exemplary. His technical expertise and problem-solving skills ensured that our system was robust and efficient. Ikram's professionalism and dedication to delivering top-notch results were clear from start to finish. For anyone aiming to strengthen their backend and brand, Ikram is the ideal partner.",
     name: "Sarah Lee",
-    imag: "/sarah.jpg",
+    image: "/sarah.jpg",
     title: "CTO of FutureWeb Inc",
   },
 ];
