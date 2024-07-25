@@ -75,22 +75,25 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    fakeLink: "/casecobra.com",
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    img: "/case.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://case-cobra2-zpwh.vercel.app/",
   },
   {
     id: 2,
+    fakeLink: "/brainwave.com",
     title: "Yoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    img: "/brainwave.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://brain-wave-ashen.vercel.app/",
   },
   {
     id: 3,
+    fakeLink: "/casecobra.com",
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
@@ -99,44 +102,43 @@ export const projects = [
   },
   {
     id: 4,
+    fakeLink: "/iphoneremake.com",
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://apple-iphone-seven.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Collaborating with Ikram on our SaaS project was an absolute pleasure. His ability to understand our needs and deliver tailored solutions was remarkable. Ikram's professionalism, promptness, and dedication ensured that our software was both innovative and user-friendly. If you're looking to elevate your software and brand, Ikram is the ideal partner.",
+    name: "Sana Khan",
+    imag: "/sana.jpeg",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ikram on our full stack website was a fantastic experience. His expertise in both frontend and backend development made the project seamless. Ikram's commitment to delivering high-quality results and his ability to meet deadlines were impressive. For anyone looking to enhance their website and brand, Ikram is the perfect choice.",
+    name: "Anita Mehta",
+    imag: "/anita.png",
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ikram did an outstanding job on our frontend development project. His eye for detail and creativity in designing an intuitive user interface were exceptional. Ikram's enthusiasm and dedication to perfection were evident throughout the project. If you need to boost your website's frontend and brand, Ikram is the go-to professional.",
+    name: "James Thompson",
+    imag: "/james.jpg",
+    title: "Head of design at MapleTech Solution",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ikram's work on our backend development project was exemplary. His technical expertise and problem-solving skills ensured that our system was robust and efficient. Ikram's professionalism and dedication to delivering top-notch results were clear from start to finish. For anyone aiming to strengthen their backend and brand, Ikram is the ideal partner.",
+    name: "Sarah Lee",
+    imag: "/sarah.jpg",
+    title: "CTO of FutureWeb Inc",
   },
 ];
 
@@ -176,22 +178,22 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "React Native Developer Intern",
+    desc: "Contributed to the development of a cross-platform mobile app using React Native, improving user experience and performance.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Backend Developer - JSM Tech",
+    desc: "Engineered robust backend systems with Node.js and Express, integrated RESTful APIs, and optimized database performance with MongoDB.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Dev Project",
+    desc: "Spearheaded the development of a web application, managing both front-end and back-end tasks from concept to deployment.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
